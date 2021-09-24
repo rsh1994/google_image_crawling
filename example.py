@@ -68,5 +68,6 @@ for image in images:
         print(count,"번째 저장!")
     except:
         print("예외발생~~~~~~~")
+        driver.close()
         pass
 driver.close()
